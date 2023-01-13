@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>CV Riquelme</title>
+</head>
+<body>
+    <header>
+        <div id="imagen">
+            <img src="imagenes/Riquelme.png" alt="Foto Juan Román Riquelme"/>
+        </div>
+        <div id="titulo">
+            <h1>Juan Román Riquelme</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="#" id="boton_datos_personales">Información Personal</a>
+                </li>
+                <li>
+                    <a href="#" type="button" id="boton_trayectoria">Trayectoria</a>
+                </li>
+                <li>
+                    <a href="#" type="button" id="boton_titulos">Títulos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <article class="datos" id="panel_datos_personales">
+            <h1>Información Personal</h1>
+            <ul>
+                <li>Profesión Futbolista</li>
+                <li>Nació el 24 de junio de 1978</li>
+                <li>En San Fernando, Pcia. de Buenos Aires</li>
+                <li>Nacionalidad Argentina</li>
+                <li>Altura 1,82 mts.</li>
+            </ul>
+        </article>
+        
+        <article class="datos" id="panel_trayectoria">
+            <h1>Trayectoria</h1>
+            <ul>
+                <li>
+                    <img src="imagenes/Bandera_Arg.svg.webp"/>
+                    Argentinos Juniors (1991 - 1996 inferiores)
+                </li>
+                <li>
+                    <img src="imagenes/Bandera_Arg.svg.webp"/>
+                    Boca Juniors (1996 - 2002)
+                </li>
+                <li>
+                    <img src="imagenes/Bandera_Esp.svg.webp"/>
+                    F. C. Barcelona (2002 - 2003)
+                </li>
+                <li>
+                    <img src="imagenes/Bandera_Esp.svg.webp"/>
+                    Villareal C. F. (2003 - 2007)
+                </li>
+                <li>
+                    <img src="imagenes/Bandera_Arg.svg.webp"/>
+                    Boca Juniors (2007 - 2014)
+                </li>
+                <li>
+                    <img src="imagenes/Bandera_Arg.svg.webp"/>
+                    Argentinos Juniors (2014 retiro)
+                </li>
+            </ul>
+        </article>
+
+        <article class="datos" id="panel_titulos">
+            <div>
+                <h1>Títulos con Boca Juniors</h1>
+                <ul>
+                    <li>Apertura 1998</li>
+                    <li>Clausura 1999</li>
+                    <li>Copa Libertadores 2000</li>
+                    <li>Copa Intercontinental 2000</li>
+                    <li>Apertura 2000</li>
+                    <li>Copa Libertadores 2001</li>
+                    <li>Copa Libertadores 2007</li>
+                    <li>Apertura 2008</li>
+                    <li>Recopa 2008</li>
+                    <li>Apertura 2011</li>
+                    <li>Copa Argentina 2011</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Títulos fuera de Boca Juniors</h1>
+                <ul>
+                    <li>Sudamericana Sub 20 de Chile en 1997 con la Selección Argentina</li>
+                    <li>Copa del Mundo Sub 20 de Malasia en 1997 con la Selección Argentina</li>
+                    <li>Torneo Esperanzas de Toulón de Francia en 1998 con la Selección Argentina</li>
+                    <li>Copa Intertoto en 2004 con Villareal F. C.</li>
+                    <li>Medalla de Oro en futbol en Beiging en 2008 con la Selecció Argentina</li>
+                </ul>
+            </div>
+        </article>
+    </main>
+
+    <script src="js/coloca_paneles.js"></script>
+
+</body>
+</html>
